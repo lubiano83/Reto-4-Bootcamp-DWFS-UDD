@@ -1,10 +1,11 @@
 const numeroDeDados = parseInt(prompt("Ingrese el numero de dados"));
 const numeroDeLanzamientos = parseInt(prompt("Ingrese el numero de lanzamientos"));
 const resultados = [];
+let numero;
 
 for( let dados = 1; dados <= numeroDeDados; dados++ ) {
     for( let lanzamiento = 1; lanzamiento <= numeroDeLanzamientos; lanzamiento++ ) {
-        let numero = Math.floor(Math.random() * 6) + 1;
+        numero = Math.floor(Math.random() * 6) + 1;
         resultados.push(numero)
     }
 }

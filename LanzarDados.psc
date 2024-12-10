@@ -1,5 +1,5 @@
 Algoritmo LanzarDados
-    Definir numero_de_dados, cantidad_de_veces, suma_total, cantidad_total Como Entero
+    Definir numero_de_dados, cantidad_de_veces, sumaValores, contador Como Entero
 	
     Escribir "Ingrese el número de dados a usar"
     Leer numero_de_dados
